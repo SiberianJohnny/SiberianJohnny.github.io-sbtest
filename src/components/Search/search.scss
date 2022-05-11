@@ -1,0 +1,31 @@
+.search {
+  &__wrapper {
+    display: inline-block;
+    position: relative;
+  }
+
+  &__input_field {
+    background-color: #5A5C66;
+    color: #B2B7BF;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 137.69%;
+    padding: 18px 26px 15px;
+    width: 564px;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    right: 0;
+    padding: 15px 22px 16px 0;
+  }
+}

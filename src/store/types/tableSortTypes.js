@@ -1,0 +1,2 @@
+export const SORT_TABLE_DATA = 'SORT_TABLE_DATA';
+export const SET_TABLE_DATA = 'SORT_TABLE_DATA';
